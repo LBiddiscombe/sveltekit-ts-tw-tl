@@ -1,5 +1,5 @@
-const typography = require('@tailwindcss/typography');
-const forms = require('@tailwindcss/forms');
+const typography = require('@tailwindcss/typography')
+const forms = require('@tailwindcss/forms')
 
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -9,6 +9,6 @@ const config = {
 	},
 
 	plugins: [forms, typography]
-};
+}
 
-module.exports = config;
+module.exports = config
